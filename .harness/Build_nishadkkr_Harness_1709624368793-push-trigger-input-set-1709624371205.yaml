@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nishadkkr_Harness_1709624368793-push-trigger-input-set
+  identifier: Build_nishadkkr_Harness_1709624368793pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nishadkkr_Harness_1709624368793
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
